@@ -1,0 +1,64 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(212, 45%, 89%);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.qr-code-component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+.main-box {
+  position: relative;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 10px;
+  max-width: 250px;
+}
+
+.img-box {
+  position: relative;
+  padding: 10px;
+  padding-bottom: 0;
+}
+
+.img-box img {
+  position: relative;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.information {
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 28px;
+}
+
+
+.information p {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 8px;
+  color:hsl(218, 44%, 22%)
+}
+
+.information p+small {
+  font-weight: 400;
+  color: hsl(220, 15%, 55%);
+}
